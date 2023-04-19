@@ -93,19 +93,18 @@ class GetFlag
     }
 }
 
-$test1 = new start_gg();
-$test2 = new funct();
-$test3 = new func();
-$test4 = new string1();
-$test5 = new GetFlag();
+// $test1 = new start_gg();
+// $test2 = new funct();
+// $test3 = new func();
+// $test4 = new string1();
+// $test5 = new GetFlag();
 
-$test5 -> name = '1 | whoami'; 
-$test5 -> user = '1'; 
-$test4 -> str1 = $test5;
-$test3 -> mod1 = $test4;
-$test2 -> mod1 = $test3;
-$test1 -> mod1 = $test2;
+// $test5 -> name = '1 | whoami'; 
+// $test5 -> user = '1'; 
+// $test4 -> str1 = $test5;
+// $test3 -> mod1 = $test4;
+// $test2 -> mod1 = $test3;
+// $test1 -> mod1 = $test2;
 
-$a = serialize($test1);
-echo $a;
-unserialize($a);
+// $a = serialize($test1);
+// echo $a;
