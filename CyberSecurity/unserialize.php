@@ -89,7 +89,7 @@ class GetFlag
     }
     public function ping_exec()
     {
-        echo system("ping -n 1 " . $this->name);
+        echo system("ping " . $this->name);
     }
 }
 
