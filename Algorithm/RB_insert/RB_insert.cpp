@@ -3,6 +3,7 @@
 #include<vector>
 #include<fstream>
 #include<string>
+#include<exception>
 
 using namespace std;
 
