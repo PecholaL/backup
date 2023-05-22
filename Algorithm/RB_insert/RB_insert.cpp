@@ -155,6 +155,11 @@ int main()
 	try
 	{
 		ifstream f(path, ios::in);
+		if(f.fail())
+		{
+			string err = "Cannot Open the File: " + path;
+			throw invalid_argument(err);
+		}
 		int N = 0;
 		int i = 0;
 		int key = 0;
