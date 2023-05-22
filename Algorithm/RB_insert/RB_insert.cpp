@@ -164,6 +164,7 @@ int main()
 			f>>key;
 			TNode tmp = TNode(key);
 			nodes.push_back(tmp);
+			++i;
 		}
 	}
 	catch(const exception& e)
